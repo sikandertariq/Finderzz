@@ -5,7 +5,7 @@ const FetchApiInfo = async () => {
     method: "GET",
     url: "https://red-flower-business-data.p.rapidapi.com/business-search",
     params: {
-      query: "Thai Food",
+      query: "Beef Burgers",
       location: "San Francisco, CA, USA",
       sort_by: "RECOMMENDED",
       start: "0",
@@ -19,15 +19,12 @@ const FetchApiInfo = async () => {
 
   try {
     const response = await axios.request(options);
-    const firstInfo = response.data.data[0]; // Access the first business object
-    if (firstInfo) {
-      console.log("Name:", firstInfo.name);
-      console.log("Alias:", firstInfo.alias);
-    } else {
-      console.log("No businesses found.");
-    }
+    //const firstinfo = response.data.data[0];
+   //console.log(firstinfo.name);
+    //console.log(firstinfo.alias);
+    return response.data;
   } catch (error) {
-    console.error("Error fetching data:", error);
+    console.error(error);
   }
 };
 
