@@ -1,13 +1,13 @@
 import axios from "axios";
 
-const FetchApiInfo = async () => {
+const FetchApiInfo = async (query, location, sort_by) => {
   const options = {
     method: "GET",
     url: "https://red-flower-business-data.p.rapidapi.com/business-search",
     params: {
-      query: "Beef Burgers",
-      location: "San Francisco, CA, USA",
-      sort_by: "RECOMMENDED",
+      query: query,
+      location: location,
+      sort_by: sort_by,
       start: "0",
       yelp_domain: "yelp.com",
     },
@@ -19,12 +19,10 @@ const FetchApiInfo = async () => {
 
   try {
     const response = await axios.request(options);
-    //const firstinfo = response.data.data[0];
-   //console.log(firstinfo.name);
-    //console.log(firstinfo.alias);
-    return response.data;
+    return response.data.data;
   } catch (error) {
     console.error(error);
+    throw error;
   }
 };
 
