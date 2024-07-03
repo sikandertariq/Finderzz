@@ -16,35 +16,45 @@ import {
 import { Picker } from "@react-native-picker/picker";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import FetchApiInfo from "../../apis/Search";
+import { createStackNavigator } from "@react-navigation/stack";
+import { NavigationContainer, useNavigation } from "@react-navigation/native";
+import BusinessDetail from "../BusinessDetail";
 
-export default function Tab() {
+const Stack = createStackNavigator();
+
+function HomeScreen() {
   const [query, setQuery] = useState("");
   const [location, setLocation] = useState("");
   const [sortBy, setSortBy] = useState("RECOMMENDED");
   const [businesses, setBusinesses] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
   const [loading, setLoading] = useState(false);
+  const navigation = useNavigation();
 
   const searchBusinesses = async () => {
-    setLoading(true); // Set loading to true before starting the search
+    setLoading(true);
     try {
       const results = await FetchApiInfo(query, location, sortBy);
       setBusinesses(results);
     } catch (error) {
       console.error(error);
     }
-    setLoading(false); // Set loading to false after the search is completed
+    setLoading(false);
   };
 
   const renderBusinesses = () => {
     return businesses.map((business, index) => (
-      <View key={index} style={styles.businessContainer}>
+      <TouchableOpacity
+        key={index}
+        style={styles.businessContainer}
+        onPress={() => navigation.navigate("BusinessDetail", { business })}
+      >
         <Image source={{ uri: business.photo }} style={styles.businessImage} />
         <View style={styles.businessInfo}>
           <Text style={styles.businessName}>{business.name}</Text>
           <Text style={styles.businessAddress}>{business.address}</Text>
         </View>
-      </View>
+      </TouchableOpacity>
     ));
   };
 
@@ -59,13 +69,15 @@ export default function Tab() {
         <View style={styles.formContainer}>
           <TextInput
             style={styles.input}
-            placeholder="Query"
+            placeholder="Search"
+            placeholderTextColor={"#ccc"}
             value={query}
             onChangeText={setQuery}
           />
           <TextInput
             style={styles.input}
             placeholder="Location"
+            placeholderTextColor={"#ccc"}
             value={location}
             onChangeText={setLocation}
           />
@@ -115,10 +127,26 @@ export default function Tab() {
   );
 }
 
+export default function Tab() {
+  return (
+    <NavigationContainer independent={true}>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen name="BusinessDetail" component={BusinessDetail}
+        options={{headerTitle:"Details"}} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f8f8f8",
+    backgroundColor: "#181840",
   },
   inner: {
     flex: 1,
@@ -138,7 +166,7 @@ const styles = StyleSheet.create({
     borderColor: "#ccc",
     borderRadius: 5,
     backgroundColor: "#fff",
-    marginBottom: 10,
+    margin: 10,
   },
   dropdownButton: {
     width: "90%",
@@ -148,26 +176,26 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     backgroundColor: "#fff",
     justifyContent: "center",
-    marginBottom: 10,
+    margin: 10,
   },
   dropdownButtonText: {
     fontSize: 16,
   },
   button: {
-    backgroundColor: "#007BFF",
+    backgroundColor: "#3b51bf",
     padding: 10,
     borderRadius: 5,
-    width: "90%",
+    width: "50%",
     alignItems: "center",
-    marginBottom: 20,
+    margin: 20,
   },
   buttonText: {
     color: "#fff",
     fontSize: 16,
   },
   scrollViewContainer: {
-    height: 200,
-    width: "100%", // Ensure it takes the full width
+    height: 210,
+    width: "100%",
   },
   scrollView: {
     flexDirection: "row",
@@ -179,7 +207,7 @@ const styles = StyleSheet.create({
     borderColor: "#ccc",
     borderRadius: 10,
     padding: 10,
-    width: 200,
+    width: 210,
     backgroundColor: "#fff",
   },
   businessImage: {
