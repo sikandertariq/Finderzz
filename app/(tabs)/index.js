@@ -130,7 +130,9 @@ function HomeScreen() {
 export default function Tab() {
   return (
     <NavigationContainer independent={true}>
-      <Stack.Navigator initialRouteName="Home">
+      <Stack.Navigator  initialRouteName="Home"
+       screenOptions={{headerShown:false}}
+      >
         <Stack.Screen
           name="Home"
           component={HomeScreen}
