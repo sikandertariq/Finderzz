@@ -3,6 +3,7 @@ import React from "react";
 import { View, Text, Button, StyleSheet, Image, Linking } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { ScrollView } from "react-native-gesture-handler";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function BusinessDetail({ route }) {
   const navigation = useNavigation();
@@ -25,31 +26,56 @@ export default function BusinessDetail({ route }) {
       <Image source={{ uri: business.photo }} style={styles.businessImage} />
       <View style={styles.textContainer}>
         <Text style={styles.businessName}>{business.name}</Text>
+        <Text style={styles.businessDetails}>{business.address}</Text>
+        <Text style={styles.businessDetails}>
+          Contact Info: {business.phone}
+        </Text>
+        <Text style={styles.businessDetails}>Ratings: {business.rating}⭐</Text>
+        {business.price_range === "$$" ? (
+          <Text style={styles.businessDetails}>Price: Mediocre</Text>
+        ) : business.price_range === "$$$" ? (
+          <Text>Price: Expensive</Text>
+        ) : (
+          <Text style={styles.businessDetails}>Price: Cheap</Text>
+        )}
+        <Text style={styles.businessDetails}>Business Highlights:</Text>
+        {business.business_highlights.map((highlight, index) => (
+          <Text key={index} style={styles.highlight}>
+            {highlight}
+          </Text>
+        ))}
       </View>
-      <Button title="Go Back" onPress={() => navigation.goBack()} />
+
       <Button title="Open in Google Maps" onPress={openInGoogleMaps} />
+      <Button title="Go Back" onPress={() => navigation.goBack()} />
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     alignItems: "center", // Keep items centered
-    //padding: 16,
+    paddingBottom: 20,
   },
   businessImage: {
     width: "100%",
-    height: "30%",
+    height: 200,
     marginBottom: 10,
   },
   textContainer: {
     width: "100%",
     alignItems: "flex-start", // Align text to the start (left)
+    margin: 16,
+    gap: 10,
   },
   businessName: {
     fontSize: 40,
     fontWeight: "bold",
+    marginBottom: 10,
+  },
+  businessDetails: {
+    fontSize: 17,
     marginBottom: 10,
   },
 });

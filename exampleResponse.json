@@ -1,0 +1,506 @@
+{
+    "status": "OK",
+    "request_id": "c2f7ede3-302f-4c38-b8b3-44adc1da5a7d",
+    "data": [
+      {
+        "id": "hqjCHBGnEj4nECnLJBvjQw",
+        "alias": "ace-plumbing-and-rooter-san-francisco",
+        "name": "Ace Plumbing & Rooter",
+        "address": "1090 Bryant St, San Francisco, CA 94103",
+        "website": "https://aceplumbingandrooter.com",
+        "latitude": 37.77161078009665,
+        "longitude": -122.40856497054872,
+        "business_page_link": "https://www.yelp.com/biz/ace-plumbing-and-rooter-san-francisco",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Heater Installation/Repair",
+            "url": "https://www.yelp.com/search?find_desc=Water+Heater+Installation%2FRepair&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Hydro-jetting",
+            "url": "https://www.yelp.com/search?find_desc=Hydro-jetting&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.7,
+        "review_count": 1239,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/YI1DDHasfDesTDK6PDmPLA/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/hqjCHBGnEj4nECnLJBvjQw",
+        "country": "US",
+        "business_highlights": [
+          "Free estimates",
+          "Locally owned & operated",
+          "Satisfaction guaranteed",
+          "20 years in business",
+          "Offers commercial services",
+          "Emergency services"
+        ],
+        "service_area": "San Francisco",
+        "licenses": [
+          {
+            "licensee": null,
+            "licenseNumber": "829071",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing",
+            "verifiedDate": "2024-03-25",
+            "expiryDate": "2025-06-30"
+          }
+        ],
+        "neighborhoods": [
+          "SoMa"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 261
+      },
+      {
+        "id": "FVqrsDMdIrlh00d-86bflA",
+        "alias": "fast-response-plumbing-and-rooter-san-francisco-3",
+        "name": "Fast Response Plumbing & Rooter",
+        "address": "236 W Portal Ave 459, San Francisco, CA 94127",
+        "website": "https://www.fastresponseplumbingsf.com",
+        "latitude": 37.775196,
+        "longitude": -122.419204,
+        "business_page_link": "https://www.yelp.com/biz/fast-response-plumbing-and-rooter-san-francisco-3",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Heater Installation/Repair",
+            "url": "https://www.yelp.com/search?find_desc=Water+Heater+Installation%2FRepair&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.8,
+        "review_count": 781,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/q8OnhJ0lKsALLMjbv17Mrw/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/FVqrsDMdIrlh00d-86bflA",
+        "country": "US",
+        "business_highlights": [
+          "Locally owned & operated",
+          "Family-owned & operated",
+          "Repairs guaranteed",
+          "Established in 2007",
+          "Available by appointment",
+          "Satisfaction guaranteed"
+        ],
+        "service_area": "San Francisco",
+        "licenses": [
+          {
+            "licensee": "Tinsley, Joseph ",
+            "licenseNumber": "1024971",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing ",
+            "verifiedDate": "2024-01-25",
+            "expiryDate": "2025-03-31"
+          }
+        ],
+        "neighborhoods": [
+          "SoMa"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 220
+      },
+      {
+        "id": "lkQ55cDaTLf3GD8vQZp1pg",
+        "alias": "oakland-rooter-and-plumbing-oakland-2",
+        "name": "Oakland Rooter & Plumbing",
+        "address": "1614 Fruitvale Ave, Oakland, CA 94601",
+        "website": "http://www.oaklandrooter.com",
+        "latitude": 37.7805497,
+        "longitude": -122.2241067,
+        "business_page_link": "https://www.yelp.com/biz/oakland-rooter-and-plumbing-oakland-2",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Heater Installation/Repair",
+            "url": "https://www.yelp.com/search?find_desc=Water+Heater+Installation%2FRepair&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.9,
+        "review_count": 1346,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/BmJYmpw9EXvOr_m7OUtvdA/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/lkQ55cDaTLf3GD8vQZp1pg",
+        "country": "US",
+        "business_highlights": [
+          "Veteran-owned & operated",
+          "Locally owned & operated",
+          "Speaks Spanish",
+          "Certified professionals",
+          "Available by appointment",
+          "Free estimates"
+        ],
+        "service_area": "Oakland",
+        "licenses": [
+          {
+            "licensee": null,
+            "licenseNumber": "965873",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing",
+            "verifiedDate": "2024-03-25",
+            "expiryDate": "2025-09-30"
+          }
+        ],
+        "neighborhoods": [
+          "Fruitvale"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 349
+      },
+      {
+        "id": "RR5cJHVh-R9f5DNqZ-XAJA",
+        "alias": "discount-plumbing-rooter-san-francisco-4",
+        "name": "Discount Plumbing Rooter",
+        "address": "4104 24th St, San Francisco, CA 94114",
+        "website": "http://www.discountplumbingrooterinc.com",
+        "latitude": 37.751429,
+        "longitude": -122.434349,
+        "business_page_link": "https://www.yelp.com/biz/discount-plumbing-rooter-san-francisco-4",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Heater Installation/Repair",
+            "url": "https://www.yelp.com/search?find_desc=Water+Heater+Installation%2FRepair&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Hydro-jetting",
+            "url": "https://www.yelp.com/search?find_desc=Hydro-jetting&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.5,
+        "review_count": 1036,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/-uYAJtHpQwavP8fSus97Rw/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/RR5cJHVh-R9f5DNqZ-XAJA",
+        "country": "US",
+        "business_highlights": [
+          "Discounts available",
+          "Free estimates",
+          "Emergency services",
+          "30 years in business",
+          "Family-owned & operated",
+          "Beat or match prices"
+        ],
+        "service_area": "San Francisco",
+        "licenses": [
+          {
+            "licensee": null,
+            "licenseNumber": "755272",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing",
+            "verifiedDate": "2024-03-18",
+            "expiryDate": "2025-10-31"
+          }
+        ],
+        "neighborhoods": [
+          "Noe Valley"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 20
+      },
+      {
+        "id": "_CEdjay2w1sackOjTFBLgQ",
+        "alias": "bay-area-plumbing-san-francisco",
+        "name": "Bay Area Plumbing",
+        "address": "335 14th Ave, San Francisco, CA 94118",
+        "website": "http://bayareaplumbing.org",
+        "latitude": 37.78189,
+        "longitude": -122.47316,
+        "business_page_link": "https://www.yelp.com/biz/bay-area-plumbing-san-francisco",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Heater Installation/Repair",
+            "url": "https://www.yelp.com/search?find_desc=Water+Heater+Installation%2FRepair&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Purification Services",
+            "url": "https://www.yelp.com/search?find_desc=Water+Purification+Services&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.8,
+        "review_count": 152,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/NgXYs4-hLkBSXi6J4uYqyA/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/_CEdjay2w1sackOjTFBLgQ",
+        "country": "US",
+        "business_highlights": [
+          "Emergency services",
+          "Certified professionals",
+          "Locally owned & operated",
+          "Eco-friendly",
+          "Family-owned & operated"
+        ],
+        "service_area": "San Francisco",
+        "licenses": [
+          {
+            "licensee": null,
+            "licenseNumber": "757796",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing",
+            "verifiedDate": "2024-01-08",
+            "expiryDate": "2025-01-31"
+          }
+        ],
+        "neighborhoods": [
+          "Inner Richmond"
+        ],
+        "yelp_guaranteed": false,
+        "average_response_time_seconds": 2371
+      },
+      {
+        "id": "7pQ7xd8xy3k2Z9RgreLPJg",
+        "alias": "24-7-rooter-and-plumbing-san-francisco-4",
+        "name": "24-7 Rooter & Plumbing",
+        "address": "1070 Quesada Ave, San Francisco, CA 94124",
+        "website": "http://www.24-7rooter.com",
+        "latitude": 37.7268753,
+        "longitude": -122.3797327,
+        "business_page_link": "https://www.yelp.com/biz/24-7-rooter-and-plumbing-san-francisco-4",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Heater Installation/Repair",
+            "url": "https://www.yelp.com/search?find_desc=Water+Heater+Installation%2FRepair&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Damage Restoration",
+            "url": "https://www.yelp.com/search?find_desc=Damage+Restoration&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.1,
+        "review_count": 866,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/LRroPjlx9KRnmQ7OX2XqKA/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/7pQ7xd8xy3k2Z9RgreLPJg",
+        "country": "US",
+        "business_highlights": [
+          "Emergency services",
+          "Discounts available",
+          "Locally owned & operated",
+          "15 years in business",
+          "Satisfaction guaranteed",
+          "Family-owned & operated"
+        ],
+        "service_area": "San Francisco",
+        "licenses": [
+          {
+            "licensee": null,
+            "licenseNumber": "954813",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing",
+            "verifiedDate": "2024-02-26",
+            "expiryDate": "2024-11-30"
+          }
+        ],
+        "neighborhoods": [
+          "Bayview-Hunters Point"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 1413
+      },
+      {
+        "id": "_xPCVK7F0pOx6ibNYtsriA",
+        "alias": "handyman-heroes-san-francisco",
+        "name": "Handyman Heroes",
+        "address": "912 Cole St, San Francisco, CA 94117",
+        "website": "http://handymanhero.es",
+        "latitude": 37.7654803,
+        "longitude": -122.4497095,
+        "business_page_link": "https://www.yelp.com/biz/handyman-heroes-san-francisco",
+        "categories": [
+          {
+            "title": "Handyman",
+            "url": "https://www.yelp.com/search?find_desc=Handyman&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Electricians",
+            "url": "https://www.yelp.com/search?find_desc=Electricians&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.8,
+        "review_count": 267,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/ohM5mkus3IiDTBqaEJzKcQ/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/_xPCVK7F0pOx6ibNYtsriA",
+        "country": "US",
+        "business_highlights": [
+          "Certified professionals",
+          "Locally owned & operated",
+          "Satisfaction guaranteed"
+        ],
+        "service_area": "San Francisco",
+        "neighborhoods": [
+          "Cole Valley"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 197
+      },
+      {
+        "id": "qd2f_K9xIEHeDbvmLDGONA",
+        "alias": "precision-rooter-and-drain-san-francisco",
+        "name": "Precision Rooter & Drain",
+        "address": "945 Taraval St, San Francisco, CA 94116",
+        "website": "http://www.precisionrooterdrain.com/",
+        "latitude": 37.7428405,
+        "longitude": -122.4764775,
+        "business_page_link": "https://www.yelp.com/biz/precision-rooter-and-drain-san-francisco",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Hydro-jetting",
+            "url": "https://www.yelp.com/search?find_desc=Hydro-jetting&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.9,
+        "review_count": 232,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/gQxE3HhHNZ2Sl642FlFlyw/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/qd2f_K9xIEHeDbvmLDGONA",
+        "country": "US",
+        "business_highlights": [
+          "Family-owned & operated",
+          "Locally owned & operated",
+          "Available by appointment",
+          "Pet friendly ",
+          "Established in 2007",
+          "Discounts available"
+        ],
+        "service_area": "San Francisco",
+        "licenses": [
+          {
+            "licensee": null,
+            "licenseNumber": "961218 ",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing",
+            "verifiedDate": "2024-04-01",
+            "expiryDate": "2025-05-31"
+          }
+        ],
+        "neighborhoods": [
+          "Parkside"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 1416
+      },
+      {
+        "id": "pHPsJ3RR_cj0y8z7HylbLg",
+        "alias": "kenneth-asire-plumbing-san-francisco-3",
+        "name": "Kenneth Asire Plumbing",
+        "address": "1559 Sloat Blvd, San Francisco, CA 94132",
+        "website": "http://www.kennethasireplumbing.com",
+        "latitude": 37.7330414,
+        "longitude": -122.4911731,
+        "business_page_link": "https://www.yelp.com/biz/kenneth-asire-plumbing-san-francisco-3",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Heater Installation/Repair",
+            "url": "https://www.yelp.com/search?find_desc=Water+Heater+Installation%2FRepair&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.8,
+        "review_count": 127,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/G5noYAdnKozv3EN1Lf6unw/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/pHPsJ3RR_cj0y8z7HylbLg",
+        "country": "US",
+        "business_highlights": [
+          "Family-owned & operated",
+          "Certified professionals",
+          "Free estimates",
+          "Workmanship guaranteed",
+          "Locally owned & operated",
+          "Available by appointment"
+        ],
+        "service_area": "San Francisco",
+        "licenses": [
+          {
+            "licensee": null,
+            "licenseNumber": "1027286",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing",
+            "verifiedDate": "2024-02-21",
+            "expiryDate": "2025-05-31"
+          }
+        ],
+        "neighborhoods": [
+          "Merced Manor"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 1913
+      },
+      {
+        "id": "bHqwCW1L82tYmtStfIVHnw",
+        "alias": "genteel-plumbers-san-francisco-7",
+        "name": "Genteel Plumbers",
+        "address": "1314 22nd Ave, San Francisco, CA 94122",
+        "website": "http://genteelplumbers.com",
+        "latitude": 37.763109,
+        "longitude": -122.480004,
+        "business_page_link": "https://www.yelp.com/biz/genteel-plumbers-san-francisco-7",
+        "categories": [
+          {
+            "title": "Plumbing",
+            "url": "https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Water Heater Installation/Repair",
+            "url": "https://www.yelp.com/search?find_desc=Water+Heater+Installation%2FRepair&find_loc=San+Francisco%2C+CA"
+          },
+          {
+            "title": "Hydro-jetting",
+            "url": "https://www.yelp.com/search?find_desc=Hydro-jetting&find_loc=San+Francisco%2C+CA"
+          }
+        ],
+        "rating": 4.7,
+        "review_count": 460,
+        "photo": "https://s3-media0.fl.yelpcdn.com/bphoto/ACgZ4ZMmeAyzmagnSBi-nA/ls.jpg",
+        "photos_page_link": "https://www.yelp.com/biz_photos/bHqwCW1L82tYmtStfIVHnw",
+        "country": "US",
+        "business_highlights": [
+          "Satisfaction guaranteed",
+          "Emergency services",
+          "Available by appointment",
+          "Family-owned & operated",
+          "Discounts available",
+          "Speaks Spanish"
+        ],
+        "service_area": "San Francisco",
+        "licenses": [
+          {
+            "licensee": null,
+            "licenseNumber": "1025814",
+            "issuedBy": "CA CSLB",
+            "trade": "C36 - Plumbing ",
+            "verifiedDate": "2024-01-15",
+            "expiryDate": "2025-04-30"
+          }
+        ],
+        "neighborhoods": [
+          "Outer Sunset"
+        ],
+        "yelp_guaranteed": true,
+        "average_response_time_seconds": 7149
+      }
+    ]
+  }
